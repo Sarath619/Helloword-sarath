@@ -1,0 +1,8 @@
+---
+applications:
+  - name: helloworld-sarath
+    host: helloworld-sarath
+    memory: 128M
+    buildpacks:
+      - nodejs_buildpack
+    command: node server.js
